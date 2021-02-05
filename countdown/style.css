@@ -1,0 +1,30 @@
+body{
+    background-image: url('https://chinesenewyear.imgix.net/assets/images/chinese-new-year--mobile.png?q=25&w=1920&auto=format%201920w');
+    overflow: hidden;
+}
+#container{
+    width: 800px;
+    text-align: center;
+    margin: 120px auto;
+    color: #fff;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.upper{
+    font-size: 80px;
+    margin-bottom: 60px;
+}
+#time-block{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#day, #hour, #minute, #second{
+    background-color: rgb(255, 145, 15);
+    float: left;
+    width: 90px;
+    font-size: 120px;
+}
+.lower{
+    font-size: 50px;
+}
